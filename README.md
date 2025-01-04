@@ -45,8 +45,10 @@ From the above characteristic table, we can directly write the next state equati
 7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
 
 **PROGRAM**
+
+
 ~~~
-module t_ff_ (t, clk, rst, q);
+module t_ff(t, clk, rst, q);
   input t, clk, rst;
   output reg q;
 
@@ -61,18 +63,24 @@ begin
   end
 endmodule
 ~~~
+
+
  Developed by:GURUPARAN G RegisterNumber:24001677
 
 
 **RTL LOGIC FOR FLIPFLOPS**
 
-![Screenshot 2024-12-26 210816](https://github.com/user-attachments/assets/c5eaf35d-748c-4193-88d9-89820084c7a9)
+
+![Screenshot 2025-01-04 081842](https://github.com/user-attachments/assets/b141bf58-afe0-470b-ba87-8d9da40ed3f3)
+
+
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
 
-![Screenshot 2024-12-26 210834](https://github.com/user-attachments/assets/01dc4767-c142-45b1-bb11-534a39a1847b)
+
+![Screenshot 2025-01-04 081859](https://github.com/user-attachments/assets/3accdc2a-db3e-4fba-be1d-54007dc511d9)
 
 
 **RESULTS**
